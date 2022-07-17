@@ -1,0 +1,48 @@
+.announcement {
+    min-height: 40px;
+    margin-bottom: 20px;
+    background-color: rgb(133, 43, 7);
+    color: white;
+    text-align: center;
+    font-size: 28px;
+}
+
+.hamburger {
+    display: none;
+}
+
+.header {
+    &__wrapper {
+        display: block;
+    }
+
+    &__logo {
+        display: block;
+        margin: 0 auto;
+        width: 200px;
+        height: 180px;
+    }
+}
+
+.menu {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+
+    &__item {
+        padding: 0 15px;
+        padding-bottom: 20px;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 22px;
+    }
+
+    a {
+        color: black;
+    }
+}

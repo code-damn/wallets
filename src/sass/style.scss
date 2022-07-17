@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;700&family=Roboto:wght@300;500;700&display=swap');
+
+
+
+* {
+	box-sizing: border-box;
+	font-family: 'Cormorant SC', serif;
+}
+
+*a {
+	text-decoration: none;
+	&:hover {
+		color: #ee5b06;
+	}
+		
+}
+
+.container {
+	max-width: 1248px;
+	margin: 0 auto;
+	padding: 0 15px;
+	position: relative;
+}
+
+@import "header";
+@import "catalog";
+@import "media";
